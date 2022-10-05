@@ -1,0 +1,40 @@
+.inputs,
+.output,
+.buttons {
+  gap: 30px;
+  display: flex;
+}
+
+.output {
+  gap: 93px;
+  position: relative;
+  input {
+    font-size: 1.4rem;
+    width: 80px;
+    text-align: center;
+  }
+}
+
+.item {
+  position: relative;
+  svg {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    pointer-events: none;
+  }
+  .legend {
+    position: absolute;
+    top: 153px;
+    left: 115px;
+    padding: 10px;
+    display: inline-block;
+    background: var(--Base);
+  }
+}
+
+.highlighted {
+  fieldset {
+    border-color: var(--Lavender) !important;
+  }
+}
